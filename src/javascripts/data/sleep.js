@@ -28,4 +28,6 @@ const slumber = () => {
 $('body').on('click', '#nap', nap);
 $('body').on('click', '#slumber', slumber);
 
-export default { createSleepQuadrant };
+const getEnergy = () => `${energy}`;
+
+export default { createSleepQuadrant, getEnergy };

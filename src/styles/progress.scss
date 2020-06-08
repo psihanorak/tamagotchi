@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-#sleep {
-  background-color: #7FDBFF;
+#progress {
+  background-color: #001f3f;
   position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 45%;
-  width: 50%;
+  top: 0;
+  height: 10%;
+  width: 100%;
 
   h2 {
     font-family: 'Roboto', sans-serif;
-    color: #F012BE;
+    color: #FF851B;
     text-align: center;
   }
   
   h4 {
     text-align: center;
-  }
+    color: #FF851B;
+  } 
 }

@@ -29,4 +29,6 @@ const junk = () => {
 $('body').on('click', '#healthy', healthy);
 $('body').on('click', '#junk', junk);
 
-export default { createEatQuadrant };
+const getFull = () => `${full}`;
+
+export default { createEatQuadrant, getFull };
