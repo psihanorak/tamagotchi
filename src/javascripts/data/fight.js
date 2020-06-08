@@ -29,4 +29,6 @@ const violence = () => {
 $('body').on('click', '#runAway', runAway);
 $('body').on('click', '#violence', violence);
 
-export default { createFightQuadrant };
+const getStrength = () => `${strength}`;
+
+export default { createFightQuadrant, getStrength };

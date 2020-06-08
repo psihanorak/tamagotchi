@@ -3,16 +3,18 @@
 #play {
   background-color: #85144b;
   position: absolute;
+  top: 10%;
   right: 0;
-  height: 50%;
+  height: 45%;
   width: 50%;
-}
 
-h2 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #01FF70;
+    text-align: center;
+  }
+  
+  h4 {
+    text-align: center;
+  }
 }

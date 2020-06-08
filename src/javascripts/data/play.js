@@ -28,4 +28,6 @@ const slightFun = () => {
 $('body').on('click', '#superFun', superFun);
 $('body').on('click', '#slightFun', slightFun);
 
-export default { createPlayQuadrant };
+const getFun = () => `${fun}`;
+
+export default { createPlayQuadrant, getFun };
