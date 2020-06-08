@@ -1,7 +1,11 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import '/eat.scss';
 @import '/play.scss';
+@import '/fight.scss';
+
 
 body {
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
