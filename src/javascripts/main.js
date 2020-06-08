@@ -1,4 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
+import eat from './data/eat';
 
-console.error('Project check');
+const init = () => {
+  eat.createEatQuadrant();
+};
+
+init();
